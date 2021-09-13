@@ -1,0 +1,983 @@
+{
+    "data": [
+        {
+            "pais": "Afeganistão",
+            "capital": "Cabul",
+            "id": 0
+        },
+        {
+            "pais": "África do Sul",
+            "capital": "Pretória",
+            "id": 1
+        },
+        {
+            "pais": "Albânia",
+            "capital": "Tirana",
+            "id": 2
+        },
+        {
+            "pais": "Alemanha",
+            "capital": "Berlim",
+            "id": 3
+        },
+        {
+            "pais": "Andorra",
+            "capital": "Andorra-a-Velha",
+            "id": 4
+        },
+        {
+            "pais": "Angola",
+            "capital": "Luanda",
+            "id": 5
+        },
+        {
+            "pais": "Antiga e Barbuda",
+            "capital": "São João",
+            "id": 6
+        },
+        {
+            "pais": "Arábia Saudita",
+            "capital": "Riade",
+            "id": 7
+        },
+        {
+            "pais": "Argélia",
+            "capital": "Argel",
+            "id": 8
+        },
+        {
+            "pais": "Argentina",
+            "capital": "Buenos Aires",
+            "id": 9
+        },
+        {
+            "pais": "Arménia",
+            "capital": "Erevã",
+            "id": 10
+        },
+        {
+            "pais": "Austrália",
+            "capital": "Camberra",
+            "id": 11
+        },
+        {
+            "pais": "Áustria",
+            "capital": "Viena",
+            "id": 12
+        },
+        {
+            "pais": "Azerbaijão",
+            "capital": "Bacu",
+            "id": 13
+        },
+        {
+            "pais": "Bahamas",
+            "capital": "Nassau",
+            "id": 14
+        },
+        {
+            "pais": "Bangladexe",
+            "capital": "Daca",
+            "id": 15
+        },
+        {
+            "pais": "Barbados",
+            "capital": "Bridgetown",
+            "id": 16
+        },
+        {
+            "pais": "Barém",
+            "capital": "Manama",
+            "id": 17
+        },
+        {
+            "pais": "Bélgica",
+            "capital": "Bruxelas",
+            "id": 18
+        },
+        {
+            "pais": "Belize",
+            "capital": "Belmopã",
+            "id": 19
+        },
+        {
+            "pais": "Benim",
+            "capital": "Porto Novo",
+            "id": 20
+        },
+        {
+            "pais": "Bielorrússia",
+            "capital": "Minsque",
+            "id": 21
+        },
+        {
+            "pais": "Bolívia",
+            "capital": "Sucre",
+            "id": 22
+        },
+        {
+            "pais": "Bósnia e Herzegovina",
+            "capital": "Saraievo",
+            "id": 23
+        },
+        {
+            "pais": "Botsuana",
+            "capital": "Gaborone",
+            "id": 24
+        },
+        {
+            "pais": "Brasil",
+            "capital": "Brasília",
+            "id": 25
+        },
+        {
+            "pais": "Brunei",
+            "capital": "Bandar Seri Begauã",
+            "id": 26
+        },
+        {
+            "pais": "Bulgária",
+            "capital": "Sófia",
+            "id": 27
+        },
+        {
+            "pais": "Burquina Faso",
+            "capital": "Uagadugu",
+            "id": 28
+        },
+        {
+            "pais": "Burúndi",
+            "capital": "Bujumbura",
+            "id": 29
+        },
+        {
+            "pais": "Butão",
+            "capital": "Timbu",
+            "id": 30
+        },
+        {
+            "pais": "Cabo Verde",
+            "capital": "Praia",
+            "id": 31
+        },
+        {
+            "pais": "Camarões",
+            "capital": "Iaundé",
+            "id": 32
+        },
+        {
+            "pais": "Camboja",
+            "capital": "Pnom Pene",
+            "id": 33
+        },
+        {
+            "pais": "Canadá",
+            "capital": "Otava",
+            "id": 34
+        },
+        {
+            "pais": "Catar",
+            "capital": "Doa",
+            "id": 35
+        },
+        {
+            "pais": "Cazaquistão",
+            "capital": "Astana",
+            "id": 36
+        },
+        {
+            "pais": "Chade",
+            "capital": "Jamena",
+            "id": 37
+        },
+        {
+            "pais": "Chile",
+            "capital": "Santiago",
+            "id": 38
+        },
+        {
+            "pais": "China",
+            "capital": "Pequim",
+            "id": 39
+        },
+        {
+            "pais": "Chipre",
+            "capital": "Nicósia",
+            "id": 40
+        },
+        {
+            "pais": "Colômbia",
+            "capital": "Bogotá",
+            "id": 41
+        },
+        {
+            "pais": "Comores",
+            "capital": "Moroni",
+            "id": 42
+        },
+        {
+            "pais": "Congo Brazzaville",
+            "capital": "Brazavile",
+            "id": 43
+        },
+        {
+            "pais": "Coreia do Norte",
+            "capital": "Pionguiangue",
+            "id": 44
+        },
+        {
+            "pais": "Coreia do Sul",
+            "capital": "Seul",
+            "id": 45
+        },
+        {
+            "pais": "Cosovo",
+            "capital": "Pristina",
+            "id": 46
+        },
+        {
+            "pais": "Costa do Marfim",
+            "capital": "Iamussucro",
+            "id": 47
+        },
+        {
+            "pais": "Costa Rica",
+            "capital": "São José",
+            "id": 48
+        },
+        {
+            "pais": "Croácia",
+            "capital": "Zagrebe",
+            "id": 49
+        },
+        {
+            "pais": "Cuaite",
+            "capital": "Cidade do Cuaite",
+            "id": 50
+        },
+        {
+            "pais": "Cuba",
+            "capital": "Havana",
+            "id": 51
+        },
+        {
+            "pais": "Dinamarca",
+            "capital": "Copenhaga",
+            "id": 52
+        },
+        {
+            "pais": "Dominica",
+            "capital": "Roseau",
+            "id": 53
+        },
+        {
+            "pais": "Egito",
+            "capital": "Cairo",
+            "id": 54
+        },
+        {
+            "pais": "Emirados Árabes Unidos",
+            "capital": "Abu Dabi",
+            "id": 55
+        },
+        {
+            "pais": "Equador",
+            "capital": "Quito",
+            "id": 56
+        },
+        {
+            "pais": "Eritreia",
+            "capital": "Asmara",
+            "id": 57
+        },
+        {
+            "pais": "Eslováquia",
+            "capital": "Bratislava",
+            "id": 58
+        },
+        {
+            "pais": "Eslovénia",
+            "capital": "Liubliana",
+            "id": 59
+        },
+        {
+            "pais": "Espanha",
+            "capital": "Madrid",
+            "id": 60
+        },
+        {
+            "pais": "Essuatíni",
+            "capital": "Lobamba",
+            "id": 61
+        },
+        {
+            "pais": "Estado da Palestina",
+            "capital": "Jerusalém Oriental",
+            "id": 62
+        },
+        {
+            "pais": "Estados Unidos",
+            "capital": "Washington",
+            "id": 63
+        },
+        {
+            "pais": "Estónia",
+            "capital": "Talim",
+            "id": 64
+        },
+        {
+            "pais": "Etiópia",
+            "capital": "Adis Abeba",
+            "id": 65
+        },
+        {
+            "pais": "Fiji",
+            "capital": "Suva",
+            "id": 66
+        },
+        {
+            "pais": "Filipinas",
+            "capital": "Manila",
+            "id": 67
+        },
+        {
+            "pais": "Finlândia",
+            "capital": "Helsínquia",
+            "id": 68
+        },
+        {
+            "pais": "França",
+            "capital": "Paris",
+            "id": 69
+        },
+        {
+            "pais": "Gabão",
+            "capital": "Libreville",
+            "id": 70
+        },
+        {
+            "pais": "Gâmbia",
+            "capital": "Banjul",
+            "id": 71
+        },
+        {
+            "pais": "Gana",
+            "capital": "Acra",
+            "id": 72
+        },
+        {
+            "pais": "Geórgia",
+            "capital": "Tebilíssi",
+            "id": 73
+        },
+        {
+            "pais": "Granada",
+            "capital": "São Jorge",
+            "id": 74
+        },
+        {
+            "pais": "Grécia",
+            "capital": "Atenas",
+            "id": 75
+        },
+        {
+            "pais": "Guatemala",
+            "capital": "Cidade da Guatemala",
+            "id": 76
+        },
+        {
+            "pais": "Guiana",
+            "capital": "Georgetown",
+            "id": 77
+        },
+        {
+            "pais": "Guiné",
+            "capital": "Conacri",
+            "id": 78
+        },
+        {
+            "pais": "Guiné Equatorial",
+            "capital": "Malabo",
+            "id": 79
+        },
+        {
+            "pais": "Guiné-Bissau",
+            "capital": "Bissau",
+            "id": 80
+        },
+        {
+            "pais": "Haiti",
+            "capital": "Porto Príncipe",
+            "id": 81
+        },
+        {
+            "pais": "Honduras",
+            "capital": "Tegucigalpa",
+            "id": 82
+        },
+        {
+            "pais": "Hungria",
+            "capital": "Budapeste",
+            "id": 83
+        },
+        {
+            "pais": "Iémen",
+            "capital": "Saná",
+            "id": 84
+        },
+        {
+            "pais": "Ilhas Marechal",
+            "capital": "Majuro",
+            "id": 85
+        },
+        {
+            "pais": "Índia",
+            "capital": "Nova Déli",
+            "id": 86
+        },
+        {
+            "pais": "Indonésia",
+            "capital": "Jacarta",
+            "id": 87
+        },
+        {
+            "pais": "Irão",
+            "capital": "Teerão",
+            "id": 88
+        },
+        {
+            "pais": "Iraque",
+            "capital": "Bagdade",
+            "id": 89
+        },
+        {
+            "pais": "Irlanda",
+            "capital": "Dublim",
+            "id": 90
+        },
+        {
+            "pais": "Islândia",
+            "capital": "Reiquiavique",
+            "id": 91
+        },
+        {
+            "pais": "Israel",
+            "capital": "Jerusalém",
+            "id": 92
+        },
+        {
+            "pais": "Itália",
+            "capital": "Roma",
+            "id": 93
+        },
+        {
+            "pais": "Jamaica",
+            "capital": "Kingston",
+            "id": 94
+        },
+        {
+            "pais": "Japão",
+            "capital": "Tóquio",
+            "id": 95
+        },
+        {
+            "pais": "Jibuti",
+            "capital": "Jibuti",
+            "id": 96
+        },
+        {
+            "pais": "Jordânia",
+            "capital": "Amã",
+            "id": 97
+        },
+        {
+            "pais": "Laus",
+            "capital": "Vienciana",
+            "id": 98
+        },
+        {
+            "pais": "Lesoto",
+            "capital": "Maseru",
+            "id": 99
+        },
+        {
+            "pais": "Letónia",
+            "capital": "Riga",
+            "id": 100
+        },
+        {
+            "pais": "Líbano",
+            "capital": "Beirute",
+            "id": 101
+        },
+        {
+            "pais": "Libéria",
+            "capital": "Monróvia",
+            "id": 102
+        },
+        {
+            "pais": "Líbia",
+            "capital": "Trípoli",
+            "id": 103
+        },
+        {
+            "pais": "Listenstaine",
+            "capital": "Vaduz",
+            "id": 104
+        },
+        {
+            "pais": "Lituânia",
+            "capital": "Vílnius",
+            "id": 105
+        },
+        {
+            "pais": "Luxemburgo",
+            "capital": "Luxemburgo",
+            "id": 106
+        },
+        {
+            "pais": "Macedónia do Norte",
+            "capital": "Escópia",
+            "id": 107
+        },
+        {
+            "pais": "Madagáscar",
+            "capital": "Antananarivo",
+            "id": 108
+        },
+        {
+            "pais": "Ma",
+            "capital": "Cuala Lumpur",
+            "id": 109
+        },
+        {
+            "pais": "Maláui",
+            "capital": "Lilôngue",
+            "id": 110
+        },
+        {
+            "pais": "Maldivas",
+            "capital": "Malé",
+            "id": 111
+        },
+        {
+            "pais": "Mali",
+            "capital": "Bamaco",
+            "id": 112
+        },
+        {
+            "pais": "Malta",
+            "capital": "Valeta",
+            "id": 113
+        },
+        {
+            "pais": "Marrocos",
+            "capital": "Rebate",
+            "id": 114
+        },
+        {
+            "pais": "Maurícia",
+            "capital": "Porto Luís",
+            "id": 115
+        },
+        {
+            "pais": "Mauritânia",
+            "capital": "Nuaquechote",
+            "id": 116
+        },
+        {
+            "pais": "México",
+            "capital": "Cidade do México",
+            "id": 117
+        },
+        {
+            "pais": "Mianmar",
+            "capital": "Nepiedó",
+            "id": 118
+        },
+        {
+            "pais": "Micronésia",
+            "capital": "Paliquir",
+            "id": 119
+        },
+        {
+            "pais": "Moçambique",
+            "capital": "Maputo",
+            "id": 120
+        },
+        {
+            "pais": "Moldávia",
+            "capital": "Quixinau",
+            "id": 121
+        },
+        {
+            "pais": "Mónaco",
+            "capital": "Mónaco",
+            "id": 122
+        },
+        {
+            "pais": "Mongólia",
+            "capital": "Ulã Bator",
+            "id": 123
+        },
+        {
+            "pais": "Montenegro",
+            "capital": "Podgoritsa",
+            "id": 124
+        },
+        {
+            "pais": "Namíbia",
+            "capital": "Vinduque",
+            "id": 125
+        },
+        {
+            "pais": "Nauru",
+            "capital": "Iarém",
+            "id": 126
+        },
+        {
+            "pais": "Nepal",
+            "capital": "Catmandu",
+            "id": 127
+        },
+        {
+            "pais": "Nicarágua",
+            "capital": "Manágua",
+            "id": 128
+        },
+        {
+            "pais": "Níger",
+            "capital": "Niamei",
+            "id": 129
+        },
+        {
+            "pais": "Nigéria",
+            "capital": "Abuja",
+            "id": 130
+        },
+        {
+            "pais": "Noruega",
+            "capital": "Oslo",
+            "id": 131
+        },
+        {
+            "pais": "Nova Zelândia",
+            "capital": "Wellington",
+            "id": 132
+        },
+        {
+            "pais": "Omã",
+            "capital": "Mascate",
+            "id": 133
+        },
+        {
+            "pais": "Países Baixos",
+            "capital": "Amesterdão",
+            "id": 134
+        },
+        {
+            "pais": "Palau",
+            "capital": "Ngerulmud",
+            "id": 135
+        },
+        {
+            "pais": "Panamá",
+            "capital": "Cidade do Panamá",
+            "id": 136
+        },
+        {
+            "pais": "Papua Nova Guiné",
+            "capital": "Porto Moresby",
+            "id": 137
+        },
+        {
+            "pais": "Paquistão",
+            "capital": "Islamabade",
+            "id": 138
+        },
+        {
+            "pais": "Paraguai",
+            "capital": "Assunção",
+            "id": 139
+        },
+        {
+            "pais": "Peru",
+            "capital": "Lima",
+            "id": 140
+        },
+        {
+            "pais": "Polónia",
+            "capital": "Varsóvia",
+            "id": 141
+        },
+        {
+            "pais": "Portugal",
+            "capital": "Lisboa",
+            "id": 142
+        },
+        {
+            "pais": "Quénia",
+            "capital": "Nairóbi",
+            "id": 143
+        },
+        {
+            "pais": "Quirguistão",
+            "capital": "Bisqueque",
+            "id": 144
+        },
+        {
+            "pais": "Quiribáti",
+            "capital": "Taraua do Sul",
+            "id": 145
+        },
+        {
+            "pais": "Reino Unido",
+            "capital": "Londres",
+            "id": 146
+        },
+        {
+            "pais": "República Centro-Africana",
+            "capital": "Bangui",
+            "id": 147
+        },
+        {
+            "pais": "República Checa",
+            "capital": "Praga",
+            "id": 148
+        },
+        {
+            "pais": "República Democrática do Congo",
+            "capital": "Quinxassa",
+            "id": 149
+        },
+        {
+            "pais": "República Dominicana",
+            "capital": "São Domingos",
+            "id": 150
+        },
+        {
+            "pais": "Roménia",
+            "capital": "Bucareste",
+            "id": 151
+        },
+        {
+            "pais": "Ruanda",
+            "capital": "Quigali",
+            "id": 152
+        },
+        {
+            "pais": "Rússia",
+            "capital": "Moscovo",
+            "id": 153
+        },
+            {
+            "pais": "Salomão","capital": "Honiara",
+            "id": 154},
+
+        {
+            "pais": "Salvador",
+            "capital": "São Salvador",
+            "id": 155
+        },
+            {
+            "pais": "Samoa","capital": "Apia",
+            "id": 156},
+
+        {
+            "pais": "Santa Lúcia",
+            "capital": "Castries",
+            "id": 157
+        },
+        {
+            "pais": "São Cristóvão e Neves",
+            "capital": "Basseterre",
+            "id": 158
+        },
+        {
+            "pais": "São Marinho",
+            "capital": "São Marinho",
+            "id": 159
+        },
+        {
+            "pais": "São Tomé e Príncipe",
+            "capital": "São Tomé",
+            "id": 160
+        },
+        {
+            "pais": "São Vicente e Granadinas",
+            "capital": "Kingstown",
+            "id": 161
+        },
+        {
+            "pais": "Seicheles",
+            "capital": "Vitória",
+            "id": 162
+        },
+        {
+            "pais": "Senegal",
+            "capital": "Dacar",
+            "id": 163
+        },
+        {
+            "pais": "Serra Leoa",
+            "capital": "Freetown",
+            "id": 164
+        },
+        {
+            "pais": "Sérvia",
+            "capital": "Belgrado",
+            "id": 165
+        },
+        {
+            "pais": "Singapura",
+            "capital": "Singapura",
+            "id": 166
+        },
+        {
+            "pais": "Síria",
+            "capital": "Damasco",
+            "id": 167
+        },
+        {
+            "pais": "Somália",
+            "capital": "Mogadíscio",
+            "id": 168
+        },
+        {
+            "pais": "Sri Lanca",
+            "capital": "Sri Jaiavardenapura-Cota",
+            "id": 169
+        },
+        {
+            "pais": "Sudão",
+            "capital": "Cartum",
+            "id": 170
+        },
+        {
+            "pais": "Sudão do Sul",
+            "capital": "Juba",
+            "id": 171
+        },
+        {
+            "pais": "Suécia",
+            "capital": "Estocolmo",
+            "id": 172
+        },
+        {
+            "pais": "Suíça",
+            "capital": "Berna",
+            "id": 173
+        },
+        {
+            "pais": "Suriname",
+            "capital": "Paramaribo",
+            "id": 174
+        },
+        {
+            "pais": "Tailândia",
+            "capital": "Banguecoque",
+            "id": 175
+        },
+        {
+            "pais": "Taiuã",
+            "capital": "Taipé",
+            "id": 176
+        },
+        {
+            "pais": "Tajiquistão",
+            "capital": "Duchambé",
+            "id": 177
+        },
+        {
+            "pais": "Tanzânia",
+            "capital": "Dodoma",
+            "id": 178
+        },
+            {
+            "pais": "Timor-Leste","capital": "Díli",
+            "id": 179},
+
+        {
+            "pais": "Togo",
+            "capital": "Lomé",
+            "id": 180
+        },
+            {
+            "pais": "Tonga","capital": "Nucualofa",
+            "id": 181},
+
+        {
+            "pais": "Trindade e Tobago",
+            "capital": "Porto de Espanha",
+            "id": 182
+        },
+        {
+            "pais": "Tunísia",
+            "capital": "Tunes",
+            "id": 183
+        },
+        {
+            "pais": "Turcomenistão",
+            "capital": "Asgabate",
+            "id": 184
+        },
+        {
+            "pais": "Turquia",
+            "capital": "Ancara",
+            "id": 185
+        },
+            {
+            "pais": "Tuvalu","capital": "Funafuti",
+            "id": 186},
+
+        {
+            "pais": "Ucrânia",
+            "capital": "Quieve",
+            "id": 187
+        },
+        {
+            "pais": "Uganda",
+            "capital": "Campala",
+            "id": 188
+        },
+        {
+            "pais": "Uruguai",
+            "capital": "Montevideu",
+            "id": 189
+        },
+        {
+            "pais": "Usbequistão",
+            "capital": "Tasquente",
+            "id": 190
+        },
+            {
+            "pais": "Vanuatu","capital": "Porto Vila",
+            "id": 191},
+
+        {
+            "pais": "Vaticano",
+            "capital": "Vaticano",
+            "id": 192
+        },
+        {
+            "pais": "Venezuela",
+            "capital": "Caracas",
+            "id": 193
+        },
+        {
+            "pais": "Vietname",
+            "capital": "Hanói",
+            "id": 194
+        },
+        {
+            "pais": "Zâmbia",
+            "capital": "Lusaca",
+            "id": 195
+        },
+        {
+            "pais": "Zimbábue",
+            "capital": "Harare",
+            "id": 196
+        }
+    ]
+}
