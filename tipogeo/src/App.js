@@ -1,6 +1,13 @@
+import { GlobalStyle, Title } from './GlobalStyle/GlobalStyle';
+import { List } from './components'
+
 function App() {
-  return (
-    <h1>start!</h1>
+  return(
+    <>
+      <Title>TipoGeo</Title>
+      <List/>
+      <GlobalStyle/>
+    </>
   );
 }
 
