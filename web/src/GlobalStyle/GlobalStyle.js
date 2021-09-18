@@ -8,11 +8,23 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        width: 100vw;
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
     }
-` 
+    ` 
 
 export const Title = styled.h1`
     font-size: 3.6rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 85vw;
+    text-align: center;
+`
+
+export const Container = styled.div`
+    width: 85vw;
+    margin: 0 auto;
 `

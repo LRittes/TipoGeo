@@ -1,15 +1,10 @@
 import { useState } from "react"
 
-import { Input } from "./style"
+import { Input, Label, Container } from "./style"
 
-const Question = () => {
+const Question = ({datas}) => {
     const [value, setValue] = useState('')
-    const dados = {
-        "pais": "Afeganistão",
-        "capital": "Cabul",
-        "id": 0,
-        "answer": false
-    }
+    const [dados] = useState({...datas,"answer": false})
     const [dado, setDado] = useState(dados.answer)
 
     function onEnter(e){
@@ -21,7 +16,7 @@ const Question = () => {
     }
     
     function VerificationAnswer(dados){
-        if(value === dados.capital){
+        if(value.toLowerCase() === dados.capital.toLowerCase()){
         setDado(true)
         } else {
         setDado(false)
@@ -29,16 +24,17 @@ const Question = () => {
     }
     
     return (
-        <div>
-            <label htmlFor={dados.id}>{dados.pais}</label>
-            <Input className={dado ? 'certo': ''}
+        <Container>
+            <Label htmlFor={dados.id}>{dados.pais}</Label>
+            <Input style={dado ? {backgroundColor: '#84F56C'}: null}
                 id={dados.id} 
                 name={dados.id} 
                 type='text'
                 onChange={(e) => setValue(e.target.value)}
                 onKeyUp={onEnter}
+                autoComplete='off'
             />
-        </div>
+        </Container>
     )
 }
 

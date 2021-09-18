@@ -1,11 +1,13 @@
-import { GlobalStyle, Title } from './GlobalStyle/GlobalStyle';
+import { GlobalStyle, Title, Container } from './GlobalStyle/GlobalStyle';
 import { List } from './components'
 
 function App() {
   return(
     <>
-      <Title>TipoGeo</Title>
-      <List/>
+      <Container>
+        <Title>TipoGeo</Title>
+        <List/>
+      </Container>
       <GlobalStyle/>
     </>
   );
