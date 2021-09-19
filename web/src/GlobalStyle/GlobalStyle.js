@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         width: 100vw;
         font-family: Arial, Helvetica, sans-serif;
     }
-    ` 
+    `
 
 export const Title = styled.h1`
     font-size: 3.6rem;
