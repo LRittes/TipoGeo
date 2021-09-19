@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const Input = styled.input`
-    width: 100%;
+    width: 70%;
     height: 100%;
     padding: 3px;
     padding-left: 8px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border: none;
     text-align: center;
 
@@ -15,15 +15,17 @@ export const Input = styled.input`
 `
 
 export const Label = styled.label`
-    width: 15rem;
-    font-size: 1.5rem;
+    width: 32rem;
+    font-size: 2rem;
     font-weight: 500;
     border-right: 1px solid #ccc;
     padding: 0 3px;
+    white-space: nowrap;
+    text-align: center;
 `
 
 export const Container = styled.div`
-    width: 35rem;
+    /* width: 50rem; */
     padding: 3px 0;
     display: flex;
     align-items: center;
