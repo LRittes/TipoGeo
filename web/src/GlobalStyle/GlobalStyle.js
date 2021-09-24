@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         width: 100vw;
         font-family: Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
     }
 `
 

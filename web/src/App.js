@@ -1,5 +1,5 @@
 import { GlobalStyle, Container } from './GlobalStyle/GlobalStyle'
-import { List, Header } from './components'
+import { List, Header, Modal } from './components'
 import { CountProvider } from './context/Count'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
                 <Header />
                 <List />
             </Container>
+            <Modal />
             <GlobalStyle />
         </CountProvider>
     )

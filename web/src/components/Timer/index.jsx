@@ -14,7 +14,6 @@ export const Timer = () => {
             setSec(timer % 60)
         }, 1000)
         if (timer < 0) clearInterval(startTime)
-        console.log('foi')
         return () => {
             clearInterval(startTime)
         }
