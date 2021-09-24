@@ -1,6 +1,8 @@
 import { Title, Container, ScoreC, SubTitle } from './styles'
 import { useCount } from '../../context/Count'
 
+import { Timer } from '../Timer'
+
 const Header = () => {
     const { count } = useCount()
     return (
@@ -8,7 +10,7 @@ const Header = () => {
             <Title>TipoGeo</Title>
             <ScoreC>
                 <SubTitle>Paises: {count}/197</SubTitle>
-                <SubTitle>Tempo: 15:00</SubTitle>
+                <SubTitle>Tempo: {Timer()}</SubTitle>
             </ScoreC>
         </Container>
     )
