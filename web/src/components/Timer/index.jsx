@@ -23,8 +23,8 @@ export const Timer = () => {
     }
 
     return (
-        <span>{`${minutes < 10 ? '0' + minutes : minutes}:${
-            sec < 10 ? '0' + sec : sec
+        <span>{`${minutes < 10 ? `0${minutes}` : minutes}:${
+            sec < 10 ? `0${sec}` : sec
         }`}</span>
     )
 }
