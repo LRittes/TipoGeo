@@ -1,17 +1,19 @@
 import { GlobalStyle, Container } from './GlobalStyle/GlobalStyle'
-import { List, Header, Modal } from './components'
+import { List, Header} from './components'
 import { CountProvider } from './context/Count'
+import { OpenModalProvider } from './context/OpenModal'
 
 function App() {
     return (
-        <CountProvider>
-            <Container>
-                <Header />
-                <List />
-            </Container>
-            <Modal />
-            <GlobalStyle />
-        </CountProvider>
+        <OpenModalProvider>
+            <CountProvider>
+                <Container>
+                    <Header/>
+                    <List />
+                </Container>
+                <GlobalStyle />
+            </CountProvider>
+        </OpenModalProvider>
     )
 }
 
