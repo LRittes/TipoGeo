@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useOpenModal } from '../../context/OpenModal'
 
-const START_MINUTE = 0.1
+const START_MINUTE = 15
 const TIME_INITIAL = START_MINUTE * 60
 
 export const Timer = (count) => {

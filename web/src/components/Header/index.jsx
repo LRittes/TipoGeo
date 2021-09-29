@@ -10,7 +10,6 @@ import Modal from '../Modal'
 const Header = () => {
     const { count } = useCount()
     const {openModal} = useOpenModal()
-    console.log(openModal)
     return (
         <Container>
             <Title>TipoGeo</Title>
