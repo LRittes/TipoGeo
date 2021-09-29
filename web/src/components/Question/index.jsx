@@ -18,7 +18,7 @@ const Question = ({ datas }) => {
     }
 
     function VerificationAnswer() {
-        if (value.toLowerCase() === dados.capital.toLowerCase()) {
+        if (value.toLowerCase().trim() === dados.capital.toLowerCase()) {
             setDado(true)
             setCount(count + 1)
         } else {

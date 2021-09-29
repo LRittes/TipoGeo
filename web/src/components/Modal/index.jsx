@@ -3,16 +3,16 @@ import { useOpenModal } from '../../context/OpenModal'
 
 import { Container, Title, ModalContainer, Btn } from './styles'
 
-const portalModal = document.getElementById('modal')
+const portalModal = document.getElementById('portal-modal')
 
-const Modal = () => {
+const Modal = ({title, titleBtn}) => {
     const {setOpenModal} = useOpenModal()
     return (
         ReactDOM.createPortal(
             <Container>
                 <ModalContainer>
-                    <Title>Está pronto?</Title>
-                    <Btn onClick={() => setOpenModal(false)}>Começar</Btn>
+                    <Title>{title}</Title>
+                    <Btn onClick={() => setOpenModal(false)}>{titleBtn}</Btn>
                 </ModalContainer>
             </Container>,
             portalModal

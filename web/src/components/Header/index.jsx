@@ -1,9 +1,9 @@
 import { Title, Container, ScoreC, SubTitle } from './styles'
 import { useCount } from '../../context/Count'
+import { useOpenModal } from '../../context/OpenModal'
 
 import { Timer } from '../Timer'
-import { useOpenModal } from '../../context/OpenModal'
-import { Modal } from '..'
+import Modal from '../Modal'
 
 const Header = () => {
     const { count } = useCount()
@@ -16,7 +16,7 @@ const Header = () => {
                 <SubTitle>Paises: {count}/197</SubTitle>
                 <SubTitle>Tempo: {openModal ? '--:--': Timer()}</SubTitle>
             </ScoreC>
-            {openModal && <Modal/>}
+            {openModal && <Modal title='Está Pronto ?' titleBtn='Começar' />}
         </Container>
     )
 }
