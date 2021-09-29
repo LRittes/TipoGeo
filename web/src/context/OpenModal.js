@@ -4,8 +4,9 @@ export const OpenModalContext = createContext()
 
 export const OpenModalProvider = ({ children }) => {
     const [openModal, setOpenModal] = useState(true)
+    const [titleModal, setTitleModal] = useState({title:'Está pronto?', titleBtn: 'Começar', answer: null})
     return (
-        <OpenModalContext.Provider value={{ openModal, setOpenModal }}>
+        <OpenModalContext.Provider value={{ openModal, setOpenModal, titleModal, setTitleModal }}>
             {children}
         </OpenModalContext.Provider>
     )
@@ -13,6 +14,6 @@ export const OpenModalProvider = ({ children }) => {
 
 export const useOpenModal = () => {
     const context = useContext(OpenModalContext)
-    const { openModal, setOpenModal } = context
-    return { openModal, setOpenModal }
+    const { openModal, setOpenModal, titleModal, setTitleModal } = context
+    return { openModal, setOpenModal, titleModal, setTitleModal }
 }

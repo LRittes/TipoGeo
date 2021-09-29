@@ -4,11 +4,11 @@ import { useOpenModal } from '../../context/OpenModal'
 const START_MINUTE = 0.1
 const TIME_INITIAL = START_MINUTE * 60
 
-export const Timer = () => {
+export const Timer = (count) => {
     const [timer, setTimer] = useState(TIME_INITIAL)
     const [minutes, setMinutes] = useState('--')
     const [sec, setSec] = useState('--')
-    const { setOpenModal } = useOpenModal()
+    const {setOpenModal, setTitleModal} = useOpenModal()
 
     useEffect(() => {
         const startTime = setInterval(() => {
@@ -16,7 +16,17 @@ export const Timer = () => {
             setMinutes(Math.floor(timer / 60))
             setSec(timer % 60)
         }, 1000)
-        if (timer < 0) return (clearInterval(startTime), setOpenModal(true)) 
+        if (timer < 0) {
+            return (
+                clearInterval(startTime),
+                setTitleModal({
+                    title: 'Tempo esgotado!',
+                    titleBtn: 'Restart',
+                    answer: count
+                }),
+                setOpenModal(true)
+                ) 
+        }
         return () => {
             clearInterval(startTime)
         }

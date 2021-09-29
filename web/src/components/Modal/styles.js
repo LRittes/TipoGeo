@@ -44,3 +44,11 @@ export const Btn = styled.button`
         filter: brightness(1.1);
     }
 `
+export const SubTitle = styled.h3`
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: center;
+    span {
+        color: #4f9d69;
+    }
+`

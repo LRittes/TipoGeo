@@ -14,9 +14,9 @@ const Header = () => {
             <Title>TipoGeo</Title>
             <ScoreC>
                 <SubTitle>Paises: {count}/197</SubTitle>
-                <SubTitle>Tempo: {openModal ? '--:--': Timer()}</SubTitle>
+                <SubTitle>Tempo: {openModal ? '--:--': Timer(count)}</SubTitle>
             </ScoreC>
-            {openModal && <Modal title='Está Pronto ?' titleBtn='Começar' />}
+            {openModal && <Modal />}
         </Container>
     )
 }
