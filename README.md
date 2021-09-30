@@ -1,4 +1,4 @@
-# TipoGeo
+# [TipoGeo](https://tipogeo.vercel.app/)
 
 ## É um jogo para testas conhecimento de geografia, o jogo consiste em acerta o maior numero de capitais dos paises em um tempo determinado
 
