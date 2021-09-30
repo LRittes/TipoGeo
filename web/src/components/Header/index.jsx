@@ -14,8 +14,11 @@ const Header = () => {
         <Container>
             <Title>TipoGeo</Title>
             <ScoreC>
-                <SubTitle>Paises: {count}/197</SubTitle>
-                <SubTitle> <FaRegClock/> Tempo: {openModal ? '--:--': Timer(count)}</SubTitle>
+                <SubTitle>Capitais: {count}/197</SubTitle>
+                <SubTitle> 
+                    <FaRegClock/>
+                    Tempo: {openModal ? '--:--': Timer(count)}
+                </SubTitle>
             </ScoreC>
             {openModal && <Modal />}
         </Container>
