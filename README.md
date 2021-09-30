@@ -12,3 +12,8 @@
 
 ### Back-End
 - Firebase
+
+### Implementação em produção:
+- [Firebase](https://back-tipogeo.web.app/)
+- [Netlify](https://tipogeo.netlify.app/)
+- [Vercel](https://tipogeo.vercel.app/)
