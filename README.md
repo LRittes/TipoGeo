@@ -11,4 +11,4 @@
 - Axios
 
 ### Back-End
-- Json-server
+- Firebase
