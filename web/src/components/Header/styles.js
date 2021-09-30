@@ -19,6 +19,7 @@ export const ScoreC = styled.div`
     margin-top: 16px;
     gap: 16px;
     justify-content: center;
+    align-items: center;
 `
 
 export const SubTitle = styled.h3`

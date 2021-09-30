@@ -1,8 +1,8 @@
 import {FaRegClock} from 'react-icons/fa'
-
-import { Title, Container, ScoreC, SubTitle } from './styles'
 import { useCount } from '../../context/Count'
 import { useOpenModal } from '../../context/OpenModal'
+
+import { Title, Container, ScoreC, SubTitle } from './styles'
 
 import { Timer } from '../Timer'
 import Modal from '../Modal'

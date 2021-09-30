@@ -1,20 +1,24 @@
 import { useEffect, useState } from 'react'
-import axios from 'axios'
+
+import { useOpenModal } from '../../context/OpenModal'
+import { db } from '../../services/firebase'
+
+import Question from '../Question'
 
 import { Container } from './style'
 
-import Question from '../Question'
-import { useOpenModal } from '../../context/OpenModal'
 
 const List = () => {
     const [dados, setDados] = useState([])
     const {openModal} = useOpenModal()
-    useEffect(() => {
-        axios
-            .get('http://localhost:8080/data')
-            .then((r) => r.data)
-            .then((datas) => setDados(datas))
-    }, [])
+    useEffect(async ()=>{
+        const dataRef = db.ref("data")
+    
+        await dataRef.once("value", country => (
+            setDados(country.val())
+        ))
+    },[])
+   
     return (
         <Container>
             {!openModal && dados.map((pais) => (
