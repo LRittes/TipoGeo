@@ -8,7 +8,7 @@
 ### Front-End:
 - React JS
 - Styled-components
-- Axios
+- React-icons
 
 ### Back-End
 - Firebase
